@@ -17,19 +17,14 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 });
 
-//document.getElementById('send-button').addEventListener('click', function () {
+document.getElementById('send-button').addEventListener('click', function () {
   //var text01 = document.getElementById("text01").value;
   //var msg = text01;
-  //var msg = "送信" ;
   //sendM(msg);
-  //liff.closeWindow();
-//});
+  document.getElementById("text01").value="bbb";
+});
 
-function OnButtonClick() {
-  var text01 = document.getElementById("text01").value;
-  var msg = text01;
-  sendM(msg);
-}
+
 
 
 function sendM(msg){
