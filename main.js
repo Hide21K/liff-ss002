@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.getElementById('send-button').addEventListener('click', function () {
-  const text01 = document.getElementById("text01").value
-  var msg = text01 
+  const text01 = document.getElementById("text01").value;
+  var msg = text01 ;
   sendM(msg);
 
 });
