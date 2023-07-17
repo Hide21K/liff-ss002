@@ -1,6 +1,6 @@
 import './index.css';
 import liff from '@line/liff'
-
+require('dotenv').config();
 
 document.addEventListener("DOMContentLoaded", function() {
   liff
