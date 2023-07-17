@@ -68,6 +68,28 @@
       </div>
     </div>
     <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <script language="javascript" type="text/javascript">
+      function OnButtonClick() {
+        var text01 = document.getElementById("text01").value;
+        var msg = text01;
+        sendM(msg);
+      }
+      
+      function sendM(msg){
+        liff.sendMessages([
+            {
+                type:'text',
+                text:msg
+            }
+        ])
+        .then(() => {
+            liff.closeWindow();
+        })
+        .catch((err) => {
+            console.log('error', err);
+        });
+      }
+       </script>
     <script src="main.js"></script>
   </body>
 </html>
