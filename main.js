@@ -17,14 +17,16 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 });
 
-document.getElementById('send-button').addEventListener('click', function () {
+//document.getElementById('send-button').addEventListener('click', function () {
   //var text01 = document.getElementById("text01").value;
   //var msg = text01;
   //sendM(msg);
+  //document.getElementById("text01").value="bbb";
+//});
+
+document.getElementById("send-button").onclick = function() {
   document.getElementById("text01").value="bbb";
-});
-
-
+};
 
 
 function sendM(msg){
