@@ -2,6 +2,10 @@ import './index.css';
 import liff from '@line/liff'
 require('dotenv').config();
 
+liff.init({
+  liffId: '1660949303-Nn8d6W5a', // Use own liffId
+});
+
 document.addEventListener("DOMContentLoaded", function() {
   liff
     .init({ liffId: process.env.VITE_LIFF_ID })
