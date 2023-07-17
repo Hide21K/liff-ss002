@@ -491,7 +491,7 @@
     "file-type" "^16.5.4"
     "form-data" "^4.0.0"
 
-"@line/liff@2.22.2":
+"@line/liff@^2.22.2":
   "integrity" "sha512-2qWOlf3DPZJFIh6BlvbxBC8jp8U81cx36go8LLMHTzXj4PppXtlmwMJ44ZLF1kyPvJBefVMew9qVq2Cg/sSDAA=="
   "resolved" "https://registry.npmjs.org/@line/liff/-/liff-2.22.2.tgz"
   "version" "2.22.2"
