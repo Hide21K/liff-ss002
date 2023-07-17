@@ -20,9 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
 document.getElementById('send-button').addEventListener('click', function () {
   //const text01 = document.getElementById("text01").value;
   //var msg = text01 ;
-  var msg = "送信" ;
-  sendM(msg);
-
+  //var msg = "送信" ;
+  //sendM(msg);
+  document.getElementById("text01").value=10;
 });
 
 
