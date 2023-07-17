@@ -1,0 +1,15 @@
+{
+  "name": "liff-ss002",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@line/liff": "2.22.2"
+  },
+  "devDependencies": {
+    "vite": "4.4.4"
+  }
+}
