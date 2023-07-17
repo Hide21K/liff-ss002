@@ -18,11 +18,11 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.getElementById('send-button').addEventListener('click', function () {
-  var text01 = document.getElementById("text01").value;
-  var msg = text01;
+  //var text01 = document.getElementById("text01").value;
+  //var msg = text01;
   //var msg = "送信" ;
-  sendM(msg);
-
+  //sendM(msg);
+  liff.closeWindow();
 });
 
 
